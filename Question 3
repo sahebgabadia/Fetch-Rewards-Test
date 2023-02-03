@@ -1,0 +1,25 @@
+1. Rewards claimed by users
+
+Once the user has uploaded a receipt and collected sufficient points, the user can redeem the points for various products or services.
+It will be noteworthy to understand the rewards that are claimed most by the users as this can help the company roll out more attractive offersfor that
+particular segment and thus attract more users to use the application.
+For the same, I have analysed and calculated the highest rewards claimed by a user using python and pandas.
+The results are exciting as they indicate that the top five claimed items are soups, candies, frozen vegetables, chocolate drinks and cake mixes.
+Through this analysis, the company can increase the rewards in these five categories and offer them for fewer points, which can attract more users 
+to use the application. 
+These offers will encourage users not to miss any receipt that can be uploaded on the application and earn more rewards.
+Thus, the business can profit from this.
+
+(Code attached as Q3.1-Code and Result attached as Q3.1-Ans)
+
+
+2. Highest user activity
+
+I analysed the data set to examine which months of the year had the highest user activity. I have used python libraries: numpy, pandas and matplotlib.
+I plotted a bar graph for the number of receipts users have uploaded in a month. 
+The bar graph indicates that December has the highest number of receipts users have uploaded, and February has the lowest number of receipts. 
+There is an increase in uploaded receipts from September to January, which reaches a peak in December. 
+This can be because of the December holiday season. 
+To maximize business, the company can roll out attractive offers during the holiday season, as this will encourage users to upload more receipts.
+
+(Code attached as Q3.2-Code and Result attached as Q3.2-Ans)
