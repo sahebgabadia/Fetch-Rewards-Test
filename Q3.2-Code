@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+df['Months']=pd.to_datetime(df['PURCHASE_DATE'],format='%m').dt.month_name().str.slice(stop=3) #To get a column for months as a two digit datetime
+
+df_mont_val= df['Months'].value_counts()                                                       #Counting monthly receipts
+new_order=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']            #Order for the bar graph
+df_mont_val=df_mont_val.reindex(new_order,axis=0)                 
+df_mont_val
+df_mont_val.plot.bar(color=(0.5, 0.2, 0.3, 1))                                                 #Plotting the bar graph
